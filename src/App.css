@@ -1,0 +1,19 @@
+html{font-size: 10px;}
+body{font-size: 1.4rem; line-height: 1.5; background: linear-gradient(#41b4ff, #016ce0); display: flex; justify-content: center; align-items: center; min-height: 100vh;}
+
+h1{text-align: center; margin-bottom: 30px;}
+
+.input-box{display: flex; flex-direction: column; gap: 10px;}
+.input-box input{background: rgba(255,255,255,0.5); border: 0; border-radius: 50px; height: 40px; padding: 0 20px; color: #fff;}
+.input-box input::placeholder{color: #fff;}
+.input-box button{background-color: #fff; color: #016ce0; border-radius: 50px; height: 40px; border: 0; cursor: pointer;}
+
+.find-join{display: flex; justify-content: space-between; padding:10px 20px;}
+.find-join a{color: #fff;}
+
+.sns-login{margin-top: 50px;}
+.sns-login p{text-align: center; color: #fff; margin-bottom: 30px;}
+.sns-login p::before, .sns-login p::after{content: ""; display: inline-block; width: 40px; height: 1px; background-color: rgba(255,255,255,0.5); margin: 5px 10px; }
+
+.sns-login ul{display: flex; justify-content: center; gap: 20px;}
+.sns-login ul li img{width: 40px;}
